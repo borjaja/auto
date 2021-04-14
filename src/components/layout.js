@@ -17,6 +17,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import SearchIcon from '@material-ui/icons/Search';
 import clsx from 'clsx';
+import logo from 'lrx.png';
 import React from 'react';
 import './base.css';
 
@@ -155,7 +156,7 @@ const Template = () => {
             <MenuIcon />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
-            <img src="lrx.png" />
+            <img src={logo} />
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
